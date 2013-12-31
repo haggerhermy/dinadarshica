@@ -7,8 +7,7 @@ gem 'rack', '~> 1.4.5'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :production do
-  gem 'mysql2'
-  gem 'pg'
+  gem 'mysql'
 end
 
 group :development, :test do
@@ -22,7 +21,7 @@ group :assets do
   gem 'coffee-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
+  gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
 end
@@ -44,8 +43,3 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 
-# This version needs to be hardcoded for OpenShift compatibility
-gem 'thor', '= 0.14.6'
-
-# This needs to be installed so we can run Rails console on OpenShift directly
-gem 'minitest'
