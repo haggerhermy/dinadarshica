@@ -1,0 +1,18 @@
+#header{
+	margin:10px 50px 10px 50px;
+	background-color:yellow;
+	color:brown;
+	text-align:center;
+	font-family:Garamond;
+	height:100px;
+	font-size:40px;
+	
+}
+
+body{
+	background-color:#ccf011;
+}
+
+div{
+	margin-left:70px;
+}
